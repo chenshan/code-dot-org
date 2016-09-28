@@ -5,7 +5,7 @@ var DebugArea = require('./DebugArea');
 var dom = require('./dom');
 var JSInterpreter = require('./JSInterpreter');
 var Observer = require('./Observer');
-var Slider = require('./slider');
+var Slider = require("./third-party/slider");
 var utils = require('./utils');
 import {setStepSpeed} from './redux/runState';
 

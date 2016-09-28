@@ -21,8 +21,8 @@
  * @fileoverview A slider control in SVG.
  * @author fraser@google.com (Neil Fraser)
  */
-var SVG_NS = require('./constants').SVG_NS;
-var dom = require('./dom');
+var SVG_NS = 'http://www.w3.org/2000/svg';
+var dom = require("../dom");
 
 /**
  * Object representing a horizontal slider widget.
